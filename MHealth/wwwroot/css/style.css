@@ -1,0 +1,52 @@
+/*.navbar-title {
+    font-size: 32px;
+}
+
+.navbar-content li {
+    font-size: 28px;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.subtitle {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.content {
+    font-size: 26px;
+}*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.word-wrap {
+    word-wrap: break-word;
+}
+
+.hero-image {
+    /*background-image: url('https://www.mocindia.co.in/wp-content/uploads/2022/11/mobile_banner-10-1.webp');*/
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/449/784/small/abstract-geometric-medical-cross-shape-medicine-and-science-concept-background-medicine-medical-health-cross-healthcare-decoration-for-flyers-poster-web-banner-and-card-illustration-vector.jpg'); background-size: cover;
+    /*background-position: center;*/
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-button {
+    border-radius: 45px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    /* Adjust styling for smaller screens (e.g., mobile devices) */
+    .hero-image {
+        height: 100%; /* Adjust the height for mobile */
+    }
+}

@@ -1,0 +1,54 @@
+﻿@model MHealth.Models.DTO.SignupModel
+@{
+    ViewData["Title"] = "Signup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row mt-3">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form asp-action="Signup" method="post">
+            <div class="card">
+                <div class="card-header">
+                    <p class="subtitle">Signup</p>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label asp-for="Name">Name</label>
+                        <input type="text" class="form-control" asp-for="Name" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Username">Username</label>
+                        <input type="text" class="form-control" asp-for="Username" placeholder="Username">
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email">Email</label>
+                        <input type="text" class="form-control" asp-for="Email" placeholder="Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password">Password</label>
+                        <input type="password" class="form-control" asp-for="Password" placeholder="Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PasswordConfirm">Password Confirm</label>
+                        <input type="password" class="form-control" asp-for="PasswordConfirm" placeholder="Password Confirm">
+                        <span asp-validation-for="PasswordConfirm" class="text-danger"></span>
+                    </div>
+                    @*@if (TempData["msg"] != null)
+                    {
+                    <div class="alert alert-danger" role="alert">
+                        @TempData["msg"]
+                    </div>
+                    }*@
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">SignUp</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

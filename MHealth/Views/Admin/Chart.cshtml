@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewData["Title"] = "Chart";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string[] TableHeaders = new string[]
+    {
+    "StaffName",
+    "Rating"
+    };
+
+    List<string> staffNames = new List<string>();
+    List<double> averageRatings = new List<double>();
+
+    foreach (var Data in Model)
+    {
+        // Populate the arrays with staff names and average ratings
+        staffNames.Add(Data.StaffName);
+        averageRatings.Add(Data.AverageRating);
+    }
+}
+
+<h5 class="mt-3">@ViewData["Title"]</h5>
+
+<div class="row mt-3">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="column-md-12">
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <button type="submit" class="btn btn-primary mt-3" asp-action="GeneratePDF" asp-controller="Admin">PDF</button>
+                    @*<button type="submit" class="btn btn-primary mt-3" asp-action="GenerateJPG" asp-controller="Admin">JPG</button>*@
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="row mt-3">
+    <div class="col-md-12">
+        <table class="table bg-white rounded shadow-sm  table-hover">
+            <thead>
+                <tr>
+                    @foreach (var header in TableHeaders)
+                    {
+                        <th>
+                            @header
+                        </th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var Data in Model)
+                    {
+                        <tr>
+                            <td>@Data.StaffName</td>
+                            <td>@Data.AverageRating</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const staffNames = @Html.Raw(Json.Serialize(staffNames)); // Serialize the staffNames list to JavaScript
+    const averageRatings = @Html.Raw(Json.Serialize(averageRatings))
+
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: staffNames,
+            datasets: [{
+                label: '# of Ratings',
+                data: averageRatings,
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>

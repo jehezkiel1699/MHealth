@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MHealth
+build_property.RootNamespace = MHealth
+build_property.ProjectDir = D:\Kuliah\S2\Monash\Monash University (Master of Information Technology)\Semester 2\33538352_MHealth\MHealth\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Kuliah\S2\Monash\Monash University (Master of Information Technology)\Semester 2\33538352_MHealth\MHealth
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/Announce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5ub3VuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/Announcement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5ub3VuY2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/Chart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/CreateStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlU3RhZmYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/GeneratedChart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2VuZXJhdGVkQ2hhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Booking/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Booking/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Home/Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdGFmZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Location/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Staff/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/User/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Kuliah/S2/Monash/Monash University (Master of Information Technology)/Semester 2/33538352_MHealth/MHealth/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r5jp3yecx2

@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Booking";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string[] TableHeaders = new string[]
+    {
+    "UserName",
+    "StaffName",
+    "BookingTime",
+    "Actions"
+    };
+}
+
+<h5 class="mt-3">@ViewData["Title"]</h5>
+
+
+@if (TempData["error"] == "1")
+{
+    <p>No Data Exist!</p>
+}
+else
+{
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <table class="table bg-white rounded shadow-sm  table-hover">
+                <thead>
+                    <tr>
+                        @foreach (var header in TableHeaders)
+                        {
+                            <th>
+                                @header
+                            </th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        @foreach (var Data in Model.Bookings)
+                        {
+                            <tr>
+                                <td>@Data.UserName</td>
+                                <td>@Data.StaffName</td>
+                                <td>@Data.BookingTime</td>
+                                <td>
+
+                                    <div class="btn-group btn-group-md">
+                                        @*<form asp-controller="Staff" asp-action="Detail" method="post" asp-route-id="@Data.Id">*@
+                                        <form asp-controller="Admin" asp-action="DeleteBooking" method="post" asp-route-id="@Data.Id">
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    @if (Model.CurrentPage != 1)
+                    {
+                        <li class="page-item"><a class="page-link" href="?currentPage=@(Model.CurrentPage-1)">Previous</a></li>
+
+                    }
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        if (i == Model.CurrentPage)
+                        {
+                            <li class="page-item"><a class="page-link active" href="?currentPage=@i">@i</a></li>
+                        }
+                        else
+                        {
+                            <li class="page-item"><a class="page-link" href="?currentPage=@i">@i</a></li>
+                        }
+                    }
+                    @if (Model.CurrentPage < Model.TotalPages)
+                    {
+                        <li class="page-item"><a class="page-link" href="?currentPage=@(Model.CurrentPage+1)">Next</a></li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+}
